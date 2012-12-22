@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1095F8DE140EACE200431E67 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1095F8DD140EACE200431E67 /* UIKit.framework */; };
+		1095F8E0140EACE200431E67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1095F8DF140EACE200431E67 /* Foundation.framework */; };
+		1095F8E2140EACE200431E67 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1095F8E1140EACE200431E67 /* CoreGraphics.framework */; };
+		1095F8E8140EACE200431E67 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1095F8E6140EACE200431E67 /* InfoPlist.strings */; };
+		1095F8EB140EACE200431E67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1095F8EA140EACE200431E67 /* main.m */; };
+		1095F8EE140EACE200431E67 /* SampleReachabilityAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1095F8ED140EACE200431E67 /* SampleReachabilityAppDelegate.m */; };
+		1095F8F1140EACE200431E67 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1095F8EF140EACE200431E67 /* MainWindow.xib */; };
+		1095F8F8140EACE200431E67 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1095F8DD140EACE200431E67 /* UIKit.framework */; };
+		1095F8F9140EACE200431E67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1095F8DF140EACE200431E67 /* Foundation.framework */; };
+		1095F8FA140EACE200431E67 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1095F8E1140EACE200431E67 /* CoreGraphics.framework */; };
+		1095F902140EACE200431E67 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1095F900140EACE200431E67 /* InfoPlist.strings */; };
+		1095F905140EACE200431E67 /* SampleReachabilityTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 1095F904140EACE200431E67 /* SampleReachabilityTests.h */; };
+		1095F907140EACE200431E67 /* SampleReachabilityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1095F906140EACE200431E67 /* SampleReachabilityTests.m */; };
+		1095F913140EB00900431E67 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1095F911140EB00900431E67 /* FirstViewController.m */; };
+		1095F914140EB00900431E67 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1095F912140EB00900431E67 /* FirstViewController.xib */; };
+		1095F917140EB0A400431E67 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 1095F916140EB0A400431E67 /* Reachability.m */; };
+		1095F921140EB19E00431E67 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1095F920140EB19E00431E67 /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1095F8FB140EACE200431E67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1095F8D0140EACE100431E67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1095F8D8140EACE200431E67;
+			remoteInfo = SampleReachability;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1095F8D9140EACE200431E67 /* SampleReachability.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleReachability.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1095F8DD140EACE200431E67 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1095F8DF140EACE200431E67 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1095F8E1140EACE200431E67 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1095F8E5140EACE200431E67 /* SampleReachability-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SampleReachability-Info.plist"; sourceTree = "<group>"; };
+		1095F8E7140EACE200431E67 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1095F8E9140EACE200431E67 /* SampleReachability-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SampleReachability-Prefix.pch"; sourceTree = "<group>"; };
+		1095F8EA140EACE200431E67 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1095F8EC140EACE200431E67 /* SampleReachabilityAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleReachabilityAppDelegate.h; sourceTree = "<group>"; };
+		1095F8ED140EACE200431E67 /* SampleReachabilityAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleReachabilityAppDelegate.m; sourceTree = "<group>"; };
+		1095F8F0140EACE200431E67 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		1095F8F7140EACE200431E67 /* SampleReachabilityTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleReachabilityTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1095F8FF140EACE200431E67 /* SampleReachabilityTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SampleReachabilityTests-Info.plist"; sourceTree = "<group>"; };
+		1095F901140EACE200431E67 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1095F903140EACE200431E67 /* SampleReachabilityTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SampleReachabilityTests-Prefix.pch"; sourceTree = "<group>"; };
+		1095F904140EACE200431E67 /* SampleReachabilityTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleReachabilityTests.h; sourceTree = "<group>"; };
+		1095F906140EACE200431E67 /* SampleReachabilityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleReachabilityTests.m; sourceTree = "<group>"; };
+		1095F910140EB00900431E67 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		1095F911140EB00900431E67 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		1095F912140EB00900431E67 /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		1095F915140EB0A400431E67 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		1095F916140EB0A400431E67 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		1095F920140EB19E00431E67 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1095F8D6140EACE200431E67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1095F921140EB19E00431E67 /* SystemConfiguration.framework in Frameworks */,
+				1095F8DE140EACE200431E67 /* UIKit.framework in Frameworks */,
+				1095F8E0140EACE200431E67 /* Foundation.framework in Frameworks */,
+				1095F8E2140EACE200431E67 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1095F8F3140EACE200431E67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1095F8F8140EACE200431E67 /* UIKit.framework in Frameworks */,
+				1095F8F9140EACE200431E67 /* Foundation.framework in Frameworks */,
+				1095F8FA140EACE200431E67 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1095F8CE140EACE100431E67 = {
+			isa = PBXGroup;
+			children = (
+				1095F8E3140EACE200431E67 /* SampleReachability */,
+				1095F8FD140EACE200431E67 /* SampleReachabilityTests */,
+				1095F8DC140EACE200431E67 /* Frameworks */,
+				1095F8DA140EACE200431E67 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1095F8DA140EACE200431E67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1095F8D9140EACE200431E67 /* SampleReachability.app */,
+				1095F8F7140EACE200431E67 /* SampleReachabilityTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1095F8DC140EACE200431E67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1095F8DD140EACE200431E67 /* UIKit.framework */,
+				1095F8DF140EACE200431E67 /* Foundation.framework */,
+				1095F8E1140EACE200431E67 /* CoreGraphics.framework */,
+				1095F920140EB19E00431E67 /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1095F8E3140EACE200431E67 /* SampleReachability */ = {
+			isa = PBXGroup;
+			children = (
+				1095F915140EB0A400431E67 /* Reachability.h */,
+				1095F916140EB0A400431E67 /* Reachability.m */,
+				1095F8EC140EACE200431E67 /* SampleReachabilityAppDelegate.h */,
+				1095F8ED140EACE200431E67 /* SampleReachabilityAppDelegate.m */,
+				1095F8EF140EACE200431E67 /* MainWindow.xib */,
+				1095F8E4140EACE200431E67 /* Supporting Files */,
+				1095F910140EB00900431E67 /* FirstViewController.h */,
+				1095F911140EB00900431E67 /* FirstViewController.m */,
+				1095F912140EB00900431E67 /* FirstViewController.xib */,
+			);
+			path = SampleReachability;
+			sourceTree = "<group>";
+		};
+		1095F8E4140EACE200431E67 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1095F8E5140EACE200431E67 /* SampleReachability-Info.plist */,
+				1095F8E6140EACE200431E67 /* InfoPlist.strings */,
+				1095F8E9140EACE200431E67 /* SampleReachability-Prefix.pch */,
+				1095F8EA140EACE200431E67 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1095F8FD140EACE200431E67 /* SampleReachabilityTests */ = {
+			isa = PBXGroup;
+			children = (
+				1095F904140EACE200431E67 /* SampleReachabilityTests.h */,
+				1095F906140EACE200431E67 /* SampleReachabilityTests.m */,
+				1095F8FE140EACE200431E67 /* Supporting Files */,
+			);
+			path = SampleReachabilityTests;
+			sourceTree = "<group>";
+		};
+		1095F8FE140EACE200431E67 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1095F8FF140EACE200431E67 /* SampleReachabilityTests-Info.plist */,
+				1095F900140EACE200431E67 /* InfoPlist.strings */,
+				1095F903140EACE200431E67 /* SampleReachabilityTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1095F8D8140EACE200431E67 /* SampleReachability */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1095F90A140EACE200431E67 /* Build configuration list for PBXNativeTarget "SampleReachability" */;
+			buildPhases = (
+				1095F8D5140EACE200431E67 /* Sources */,
+				1095F8D6140EACE200431E67 /* Frameworks */,
+				1095F8D7140EACE200431E67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SampleReachability;
+			productName = SampleReachability;
+			productReference = 1095F8D9140EACE200431E67 /* SampleReachability.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1095F8F6140EACE200431E67 /* SampleReachabilityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1095F90D140EACE200431E67 /* Build configuration list for PBXNativeTarget "SampleReachabilityTests" */;
+			buildPhases = (
+				1095F8F2140EACE200431E67 /* Sources */,
+				1095F8F3140EACE200431E67 /* Frameworks */,
+				1095F8F4140EACE200431E67 /* Resources */,
+				1095F8F5140EACE200431E67 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1095F8FC140EACE200431E67 /* PBXTargetDependency */,
+			);
+			name = SampleReachabilityTests;
+			productName = SampleReachabilityTests;
+			productReference = 1095F8F7140EACE200431E67 /* SampleReachabilityTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1095F8D0140EACE100431E67 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1095F8D3140EACE100431E67 /* Build configuration list for PBXProject "SampleReachability" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1095F8CE140EACE100431E67;
+			productRefGroup = 1095F8DA140EACE200431E67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1095F8D8140EACE200431E67 /* SampleReachability */,
+				1095F8F6140EACE200431E67 /* SampleReachabilityTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1095F8D7140EACE200431E67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1095F8E8140EACE200431E67 /* InfoPlist.strings in Resources */,
+				1095F8F1140EACE200431E67 /* MainWindow.xib in Resources */,
+				1095F914140EB00900431E67 /* FirstViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1095F8F4140EACE200431E67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1095F902140EACE200431E67 /* InfoPlist.strings in Resources */,
+				1095F905140EACE200431E67 /* SampleReachabilityTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1095F8F5140EACE200431E67 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1095F8D5140EACE200431E67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1095F8EB140EACE200431E67 /* main.m in Sources */,
+				1095F8EE140EACE200431E67 /* SampleReachabilityAppDelegate.m in Sources */,
+				1095F913140EB00900431E67 /* FirstViewController.m in Sources */,
+				1095F917140EB0A400431E67 /* Reachability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1095F8F2140EACE200431E67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1095F907140EACE200431E67 /* SampleReachabilityTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1095F8FC140EACE200431E67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1095F8D8140EACE200431E67 /* SampleReachability */;
+			targetProxy = 1095F8FB140EACE200431E67 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1095F8E6140EACE200431E67 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1095F8E7140EACE200431E67 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1095F8EF140EACE200431E67 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1095F8F0140EACE200431E67 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		1095F900140EACE200431E67 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1095F901140EACE200431E67 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1095F908140EACE200431E67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1095F909140EACE200431E67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		1095F90B140EACE200431E67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleReachability/SampleReachability-Prefix.pch";
+				INFOPLIST_FILE = "SampleReachability/SampleReachability-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1095F90C140EACE200431E67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleReachability/SampleReachability-Prefix.pch";
+				INFOPLIST_FILE = "SampleReachability/SampleReachability-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1095F90E140EACE200431E67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SampleReachability.app/SampleReachability";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleReachabilityTests/SampleReachabilityTests-Prefix.pch";
+				INFOPLIST_FILE = "SampleReachabilityTests/SampleReachabilityTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		1095F90F140EACE200431E67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SampleReachability.app/SampleReachability";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleReachabilityTests/SampleReachabilityTests-Prefix.pch";
+				INFOPLIST_FILE = "SampleReachabilityTests/SampleReachabilityTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1095F8D3140EACE100431E67 /* Build configuration list for PBXProject "SampleReachability" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1095F908140EACE200431E67 /* Debug */,
+				1095F909140EACE200431E67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1095F90A140EACE200431E67 /* Build configuration list for PBXNativeTarget "SampleReachability" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1095F90B140EACE200431E67 /* Debug */,
+				1095F90C140EACE200431E67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1095F90D140EACE200431E67 /* Build configuration list for PBXNativeTarget "SampleReachabilityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1095F90E140EACE200431E67 /* Debug */,
+				1095F90F140EACE200431E67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1095F8D0140EACE100431E67 /* Project object */;
+}
